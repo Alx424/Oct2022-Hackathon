@@ -1,6 +1,6 @@
 const s = 450;
 function preload() {
-    bgMusic = loadSound('assets/Gigakoops - KNIFE CRAYONS.mp3');
+    bgMusic = loadSound("assets/Gigakoops - KNIFE CRAYONS.mp3");
     Himg = loadImage("assets/heart.png");
     Pimg = loadImage("assets/pumpkin.png");
     Cimg = loadImage("assets/candy.webp");
