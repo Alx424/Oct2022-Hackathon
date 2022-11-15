@@ -1,14 +1,14 @@
 const s = 450;
 function preload() {
     bgMusic = loadSound('assets/Gigakoops - KNIFE CRAYONS.mp3');
-    Himg = loadImage('assets/heart.png');
-    Pimg = loadImage('assets/pumpkin.png');
-    Cimg = loadImage('assets/candy.webp');
-    Bimg = loadImage('assets/bat.png');
-    sadimg = loadImage('assets/pumpkin-sad.png');
-    hi = loadImage('assets/hi.png');
-    hello = createAudio('assets/hello.mp3');
-    hi_again = loadImage('assets/hi.gif');
+    Himg = loadImage("assets/heart.png");
+    Pimg = loadImage("assets/pumpkin.png");
+    Cimg = loadImage("assets/candy.webp");
+    Bimg = loadImage("assets/bat.png");
+    sadimg = loadImage("assets/pumpkin-sad.png");
+    hi = loadImage("assets/hi.png");
+    hello = createAudio("assets/hello.mp3");
+    hi_again = loadImage("assets/hi.gif");
   }
   function setup() {
     createCanvas(s, s);
