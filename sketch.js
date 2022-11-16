@@ -11,8 +11,6 @@ let Bimg;
 let hello;
 let hi;
 let isSad = false;
-
-
 let begin = false;
 let score = 0;
 let hearts = 3;
