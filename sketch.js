@@ -24,7 +24,6 @@ function preload() {
     sadimg = loadImage("http://localhost:5500/assets/pumpkin-sad.png");
     hi = loadImage("http://localhost:5500/assets/hi.png");
     hello = createAudio("http://localhost:5500/assets/hello.mp3");
-    //hi_again = loadImage("assets/hi.gif");
   }
   function setup() {
     createCanvas(s, s);
@@ -685,13 +684,10 @@ function Him(x, y) {
   this._G4m30veRr = function() {
     //this.jump(-150, -250);
     resizeCanvas(document.body.clientWidth, document.body.clientHeight);
-    //image(hi_again, Math.floor(-150*(document.body.clientWidth/400)), Math.floor(-250*(document.body.clientHeight/400)), Math.floor(this.size*(document.body.clientWidth/400)), Math.floor(this.size*(document.body.clientHeight/400)));
-    //hi_again.play();
     hello.volume(0.25);
     hello.play();
     noLoop();
     setTimeout(function(){
-      //hi_again.pause();
       fill(0,0,0);
       rect(0, 0, document.body.clientWidth, document.body.clientHeight);
     }, 4000);
