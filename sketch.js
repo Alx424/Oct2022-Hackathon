@@ -697,11 +697,11 @@ function Him(x, y) {
       fill(0,0,0);
       rect(0, 0, document.body.clientWidth, document.body.clientHeight);
     }, 4000);
-    setTimeout(function(){newWindow();}, 4000);
+    //setTimeout(function(){newWindow();}, 4000);
     
   };
 }
-function newWindow(){
+/*function newWindow(){
   endWindow = window.open("", "", "width=200,height=250");
   endWindow.document.write("<h1>Error</h1><p id=\'loadtext\'></p><script>setTimeout(function(){document.getElementById(\'loadtext\').innerHTML = \'shutting down \'},1500);setTimeout(function(){document.getElementById(\'loadtext\').innerHTML += \'.\'}, 1700);setTimeout(function(){document.getElementById(\'loadtext\').innerHTML += \'.\'}, 1900);setTimeout(function(){document.getElementById(\'loadtext\').innerHTML += \'.\'}, 2100);setTimeout(function(){window.close()}, 2300);</script>");
-}
+}*/
