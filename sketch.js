@@ -1,4 +1,30 @@
 const s = 450;
+let start = false;
+const sc = s/400;
+let bgMusic;
+let hi_again;
+let heart;
+let Pimg;
+let sadimg;
+let Cimg;
+let Bimg;
+let hello;
+let hi;
+let isSad = false;
+let pumpkin = new Pumpkin(Math.floor(170*sc), Math.floor(310*sc));
+let candy1 = new Candy(Math.floor((Math.random()*350)+10)*sc, -35);
+let candy2 = new Candy(Math.floor((Math.random()*250)+15)*sc, -35);
+candy2.speed = 2;
+let candy3 = new Candy(Math.floor((Math.random()*350)+5)*sc, -35);
+candy3.speed = 3;
+let bat1 = new Bat(Math.floor((Math.random()*350)+10)*sc, -35);
+let bat2 = new Bat(Math.floor((Math.random()*350)+10)*sc, -35);
+bat2.speed = 3;
+
+let begin = false;
+let score = 0;
+let hearts = 3;
+let noMore = false;
 function preload() {
     bgMusic = loadSound("assets/Gigakoops - KNIFE CRAYONS.mp3");
     Himg = loadImage("assets/heart.png");
@@ -93,34 +119,7 @@ function preload() {
     }
   }
     end();
-  }
-let start = false;
-const sc = s/400;
-let bgMusic;
-let hi_again;
-let heart;
-let Pimg;
-let sadimg;
-let Cimg;
-let Bimg;
-let hello;
-let hi;
-let isSad = false;
-let pumpkin = new Pumpkin(Math.floor(170*sc), Math.floor(310*sc));
-let candy1 = new Candy(Math.floor((Math.random()*350)+10)*sc, -35);
-let candy2 = new Candy(Math.floor((Math.random()*250)+15)*sc, -35);
-candy2.speed = 2;
-let candy3 = new Candy(Math.floor((Math.random()*350)+5)*sc, -35);
-candy3.speed = 3;
-let bat1 = new Bat(Math.floor((Math.random()*350)+10)*sc, -35);
-let bat2 = new Bat(Math.floor((Math.random()*350)+10)*sc, -35);
-bat2.speed = 3;
-
-let begin = false;
-let score = 0;
-let hearts = 3;
-let noMore = false;
-
+  };
 function Pumpkin(x, y) {
   this.x = x;
   this.y = y;
