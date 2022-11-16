@@ -16,14 +16,14 @@ let score = 0;
 let hearts = 3;
 let noMore = false;
 function preload() {
-    bgMusic = loadSound("http://localhost:5500/assets/Gigakoops - KNIFE CRAYONS.mp3");
-    Himg = loadImage("http://localhost:5500/assets/heart.png");
-    Pimg = loadImage("http://localhost:5500/assets/pumpkin.png");
-    Cimg = loadImage("http://localhost:5500/assets/candy.webp");
-    Bimg = loadImage("http://localhost:5500/assets/bat.png");
-    sadimg = loadImage("http://localhost:5500/assets/pumpkin-sad.png");
-    hi = loadImage("http://localhost:5500/assets/hi.png");
-    hello = createAudio("http://localhost:5500/assets/hello.mp3");
+    bgMusic = loadSound("assets/Gigakoops - KNIFE CRAYONS.mp3");
+    Himg = loadImage("assets/heart.png");
+    Pimg = loadImage("assets/pumpkin.png");
+    Cimg = loadImage("assets/candy.webp");
+    Bimg = loadImage("assets/bat.png");
+    sadimg = loadImage("assets/pumpkin-sad.png");
+    hi = loadImage("assets/hi.png");
+    hello = createAudio("assets/hello.mp3");
   }
   function setup() {
     createCanvas(s, s);
